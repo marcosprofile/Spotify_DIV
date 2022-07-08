@@ -1,0 +1,155 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.center {
+    border-radius: 34px;
+    border: 8px solid black;
+    width: 370px;
+    height: 800px;
+    background: linear-gradient(180deg, #5A564B 0%, #141413 100%);
+}
+
+.foto {
+    display: flex;
+    justify-content: space-around;
+    background-color: #33312A;
+    border-radius: 50px 50px 0px 0px;
+    height: 25.5px;
+}
+
+.hora {
+    width: 52px;
+    margin: 2px 0 0 30px;
+    font-size: 14px;
+}
+
+.icones {
+    display: block;
+    justify-content: space-around;
+    width: 61px;
+    padding: 2px 21px 0 0;
+}
+
+.camera {
+    border-radius: 0 0 12px 12px;
+    width: 150px;
+    height: 24px;
+    background-color: black;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 16px 0 16px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#playlist {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: none;
+    margin-top: -28px;
+}
+
+img {
+    max-width: 340px;
+    border-radius: 10px;
+}
+
+.album {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.musica {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 55px 16px 0 16px;
+}
+
+.banda {
+    color: #b3b3b3;
+    margin-top: -18px;
+    margin-bottom: 26px;
+    font-weight: 600;
+}
+
+.barra {
+    margin: 0 16px 0 16px;
+    border-radius: 4px;
+    width: 338px;
+    height: 5px;
+    background-color: grey;
+}
+
+.progress {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 2px;
+    width: 100px;
+    height: 5px;
+    background-color: white;
+}
+
+.controle {
+    padding: 6.5px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 95px;
+}
+
+.controle-musica {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px 16px 0 16px;
+}
+
+.play {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin: 26px 16px 0 16px;
+}
+
+.icone-2 {
+    display: flex;
+}
+
+.share {
+    margin-right: 20px;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+#navegacao {
+    width: 120px;
+    height: 5px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 4px;
+}
